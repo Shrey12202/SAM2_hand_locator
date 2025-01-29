@@ -33,9 +33,14 @@ Two approaches are used:
 - **Frame-by-Frame Processing**: This method consumes less time but the masks are a bit less satisfactory.
 - **Video Propagation-Based Hand Tracking**: This approach takes more time but generates better masks for hands using the SAM2 video propagation feature.
 
-![Original Image](ori.jpg)
-![Frame-by-Frame Method](frame.jpg)
-![Video Propagation Method](video.jpg)
+<h2>Original Image</h2>
+<div style="display: flex; justify-content: space-around;">
+  <img src="ori.jpg" width="300" alt="Original Image">
+  <img src="frame.jpg" width="300" alt="Frame-by-Frame Method">
+  <img src="video.jpg" width="300" alt="Video Propagation Method">
+</div>
+
+
 
 ## Downloading the Pretrained Checkpoint
 To run the segmentation with SAM2, you need the pretrained checkpoint file sam2_hiera_large.pt. You can download it by setting the following URL:
