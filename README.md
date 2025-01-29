@@ -27,13 +27,13 @@ This approach processes the video more efficiently using:
 ## Input and Output Files
 - The input video file path should be updated from the desired video location at **input_video** variable.
 - The processed output video will be saved in the `output` folder with an appropriate filename where the path is saved in the **output_video** variable.
+- Both methods would result in getting an output video of masked hands identified by MediaPipe Hand Landmarker and masked by SAM2 segmentation.
 
 ## Approach Comparison:
 Two approaches are used:
 - **Frame-by-Frame Processing**: This method consumes less time but the masks are a bit less satisfactory.
 - **Video Propagation-Based Hand Tracking**: This approach takes more time but generates better masks for hands using the SAM2 video propagation feature.
 
-<h2>Comparison</h2>
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center;">
     <img src="ori.jpg" width="300" alt="Original Image">
