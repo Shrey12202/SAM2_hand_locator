@@ -33,12 +33,22 @@ Two approaches are used:
 - **Frame-by-Frame Processing**: This method consumes less time but the masks are a bit less satisfactory.
 - **Video Propagation-Based Hand Tracking**: This approach takes more time but generates better masks for hands using the SAM2 video propagation feature.
 
-<h2>Original Image</h2>
-<div style="display: flex; justify-content: space-around;">
-  <img src="ori.jpg" width="300" alt="Original Image">
-  <img src="frame.jpg" width="300" alt="Frame-by-Frame Method">
-  <img src="video.jpg" width="300" alt="Video Propagation Method">
+<h2>Comparison</h2>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="text-align: center;">
+    <img src="ori.jpg" width="300" alt="Original Image">
+    <p>Original Image</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="frame.jpg" width="300" alt="Frame-by-Frame Method">
+    <p>Frame-by-Frame Method</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="video.jpg" width="300" alt="Video Propagation Method">
+    <p>Video Propagation Method</p>
+  </div>
 </div>
+
 
 
 
